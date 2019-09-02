@@ -76,8 +76,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun openAddDialogBtn(view: View) =
-        addTodoDialogFragment.show(supportFragmentManager, "add_todo")
+    fun openAddDialogBtn(view: View) = addTodoDialogFragment.show(supportFragmentManager, "add_todo")
 
     fun editTodoBtn(view: View) {
         val parentView = (view.parent as View)
